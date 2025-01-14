@@ -1,8 +1,14 @@
 ## Git Branching
 
-### Git Branch
+### List Branch
 
 - `git branch` - lists all branches available
+- `git branch -r` - lists all remote branches available
+- `git branch -a` - lists all local and remote branches available
+- `git branch -v` - lists all branches including the hash value and message of last commit in these repositories
+
+### Create, Rename and Delete Branch
+
 - `git branch <new_branch_name>` - creates a new branch but HEAD still stays pointing to current branch
 - `git branch -d <branch_name>` - deletes a branch only after it has been fully merged in its upstream branch
 - `git branch -D <branch_name>` - deletes a branch forcefully even though it hasn't been merged to its upstream branch
