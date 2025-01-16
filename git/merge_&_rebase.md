@@ -1,3 +1,5 @@
+# Git Merge and Rebase
+
 ## Git Merge
 
 ### Fast-Forward Merge
@@ -16,13 +18,13 @@
 
 ## Git Rebase
 
-#### Brings all new commits in **main** branch to **feature** branch. Then it can be easily merged in a fast-forward approach. But is rewrites the effected commit IDs
+Brings all new commits in **main** branch to **feature** branch. Then it can be easily merged in a fast-forward approach. But is rewrites the effected commit IDs
 
 - `git rebase <main_branch>` - rebases **main** branch to **feature** branch. Run in **feature** branch
 - `git merge <feature_branch>` - merge **feature** branch to **main** branch. Run in **main** branch
 
 ## Git Cherry Pick
 
-#### Copies the changes of a specific commit in **feature** branch, then merges it to **main** branch
+Copies the changes of a specific commit in **feature** branch, then merges it to **main** branch
 
 - `git cherry-pick <commit_id>` - copy and paste the id of commit which needs to be merged to **main** branch

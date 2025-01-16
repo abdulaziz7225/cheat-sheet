@@ -1,4 +1,4 @@
-## Amend Commit
+# Amend Commit
 
 Amending a commit can be used in two scenarios: adding or updating files in the last commit, or simply updating the last
 commit message. However, amending only works on the most recent commit, not on commits further back in history.
