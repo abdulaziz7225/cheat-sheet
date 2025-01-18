@@ -13,6 +13,7 @@
 - `git branch -d <branch_name>` - deletes a branch only after it has been fully merged in its upstream branch
 - `git branch -D <branch_name>` - deletes a branch forcefully even though it hasn't been merged to its upstream branch
 - `git branch -m <branch_name>` - moves / renames a branch, together with its config and reflog
+- `git branch -M <branch_name>` - moves / renames a branch. `-M` flag is a shortcut for `--move --force`
 
 ## Git Switch
 
@@ -32,3 +33,4 @@ Historically, we used `git checkout <branch-name>` to switch branches. This stil
 
 - `git checkout <branch_name>` - switches HEAD pointer to the specified branch
 - `git checkout -b <new_branch_name>` - creates a new branch AND switches to it all in one go
+- `git checkout <remote>/<branch_name>` - ex. `git checkout origin/feature1`
