@@ -17,3 +17,10 @@ The `git restore` command was introduced in Git 2.23
 ### Unstaging Files with Git Restore
 
 - `git restore --staged <file_name>` - removes the <file_name> from staging area for the next commit but keeps its content in the working directory
+
+### Removing Untracked Files
+
+- `git clean -fdn` - cleans all untracked files and returns the repository to the state of the last commit (HEAD)
+  - `-f` force
+  - `-d` include untracked directories
+  - `-n`: performs a "dry run" and display the files and directories that would be removed
