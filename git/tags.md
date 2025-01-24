@@ -1,14 +1,28 @@
 # Git Tags
 
-## Lightweight Tags
-
-### It is simply a pointer to towards a commit in the branch. It points to the latest commit in a specific branch similar to HEAD pointer
+Tags are pointers that refer to particular points in Git history. We can mark a particular moment in time with a tag. Tags are most often used to mark version releases in projects (v4.1.0, v4.1.1, etc.)
 
 - `git tag` - lists all tags that exist in this repository
+- `git tag -l "*beta*"` - prints a list of tags that include `beta` in their name
 - `git tag <tag_name> <commit_id>` - tag a specific commit with the given tag name
 - `git show <tag_name>` - shows which commit the tag refers to
 - `git checkout <tag_name>` - opens the commit the tag name refers to in a detached HEAD mode
 - `git tag -d <tag_name>` - deletes the tag with specified name
+- `git tag -f <tag_name> <commit_id>` - if we try to reuse a tag that is already referring to a commit, `-f` flag forces to update the tag to another commit
+
+### Pushing Tags
+
+By default, the git push command doesn’t transfer tags to remote servers. If you have a lot of tags that you want to push up at once, you can use the --tags option to the git push command. This will transfer all of your tags to the remote server that are not already there.
+
+- `git push --tags` - pushes all local tags to remote repository
+- `git push origin <tag_name>` - pushes only the specified tag to remote repository
+
+## Lightweight Tags
+
+### It is simply a pointer to towards a commit in the branch. It points to the latest commit in a specific branch similar to HEAD pointer
+
+- `git tag <tag_name> -m "message"` - creates lightweight tag with specified tag name. When commit ID isn't specified, it refers to the latest commit
+- `git tag <tag_name> -m "message" <commit_id>` - creates lightweight tag with specified tag name. Adding message is optional
 
 ## Annotated Tags
 
