@@ -6,7 +6,7 @@ We can easily set up Git aliases to make our Git experience a bit simpler and fa
 
 ## Must-have aliases to print out the history in a pretty format
 
-```markdown
+```bash
 [alias]
 ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
 ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
