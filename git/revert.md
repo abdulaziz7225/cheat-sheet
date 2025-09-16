@@ -6,5 +6,5 @@
 
 `git revert` instead creates a brand new commit which reverses/undos the changes from a commit. Because it results in a new commit, you will be prompted to enter a commit message
 
-- `git revert <commit_id>` - creates a brand new commit which reverses/undos the changes from the specified commit
-- `git revert HEAD~2` - creates a brand new commit which reverses/undos the changes from the 2 commits before HEAD
+- `git revert <commit_id>` – create a brand new commit which reverses/undos the changes from the specified commit
+- `git revert HEAD~2` – create a brand new commit which reverses/undos the changes from the 2 commits before HEAD

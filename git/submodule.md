@@ -13,7 +13,7 @@
 ## Clone repo with submodules
 
 - `git clone --recurse-submodules <repo-url>`
-- `git submodule update --init --recursive`  if already cloned (initialize + fetch)
+- `git submodule update --init --recursive` – if already cloned (initialize + fetch)
 
 ## Pull latest changes in submodules
 

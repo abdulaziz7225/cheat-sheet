@@ -4,4 +4,4 @@ Amending a commit can be used in two scenarios: adding or updating files in the 
 commit message. However, amending only works on the most recent commit, not on commits further back in history.
 
 - `git add <new_files_or_changes>`
-- `git commit --amend` - opens default editor to update the last commit message
+- `git commit --amend` – open default editor to update the last commit message

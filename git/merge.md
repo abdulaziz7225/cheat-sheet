@@ -7,8 +7,8 @@ To merge, follow these basic steps:
 
 ## Fast-Forward Merge
 
-- `git merge <feature_branch>` - merges **feature** branch to **main** branch in a fast-forward approach
-- `git merge --no-ff <feature_branch>` - merges **feature** branch in a recursive way
+- `git merge <feature_branch>` – merge **feature** branch to **main** branch in a fast-forward approach
+- `git merge --no-ff <feature_branch>` – merge **feature** branch in a recursive way
 
 ### Squash or put all commits in feature branch into single commit and merge it to **main** branch
 
@@ -17,4 +17,4 @@ To merge, follow these basic steps:
 
 ## Non-Fast Forward Merge
 
-- `git merge <feature_branch>` - merges **feature** branch to **main** branch in a recursive way
+- `git merge <feature_branch>` – merge **feature** branch to **main** branch in a recursive way
