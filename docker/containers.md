@@ -46,7 +46,7 @@ Execute a command in a running container
 Aliases: `docker container exec`, `docker exec`
 
 - `docker exec -it <container_name> sh` – open a shell inside a running container
-- `docker run -it <container_name> bash` – run a container in an interactive mode and open a bash inside the running container
+- `docker run -it <image_name> bash` – run a container in an interactive mode and open a bash inside the running container
 
 ## Logs
 
