@@ -12,7 +12,9 @@ instead. To undo those commits, you can use `git reset`.
 
 - `git reset <commit_id>` – delete the specified commit but keep the changes in the working directory area
 - `git reset HEAD~1` – delete the last commit but keep the changes in the working directory area
-
+- `git reset --mixed <commit_id>` – same as `git reset <commit_id>`
+- `git reset --mixed HEAD~1` – same as `git reset HEAD~1`
+  
 ## Hard Reset
 
 - `git reset --hard <commit_id>` – both delete the specified commit and the changes from the working directory area
