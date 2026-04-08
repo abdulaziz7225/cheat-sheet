@@ -8,6 +8,6 @@ We can easily set up Git aliases to make our Git experience a bit simpler and fa
 
 ```bash
 [alias]
-ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
-ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+ls = log --pretty=format:\"%C(yellow)%h%Cred%d %Cgreen(%cr) %Creset%s %Cblue[%cn]\" --decorate
+ll = log --pretty=format:\"%C(yellow)%h%Cred%d %Cgreen(%cr) %Creset%s %Cblue[%cn]\" --decorate --numstat
 ```
