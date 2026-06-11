@@ -11,3 +11,9 @@ Update the last 3 commit messages while keeping the timestamps (both Author Date
 ```bash
 git rebase -i HEAD~3 --committer-date-is-author-date
 ```
+
+By default, `git log` only shows the Author and the Author Date. Use the `fuller` format to reveal both the Author Date and the Committer Date:
+
+```bash
+git log --format=fuller
+```
